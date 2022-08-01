@@ -1,11 +1,14 @@
-from triangulo import triangulo
+from triangulo import Triangulo
 
-triangulo.A = float(input('Entre com o lado A: '))
-triangulo.B = float(input('Entre com o lado B: '))
-triangulo.C = float(input('Entre com o lado C: '))
+a = Triangulo(3,4,5)
+print(a.area)
 
-x = triangulo()
-y = triangulo()
+# Triangulo.A = float(input('Entre com o lado A: '))
+# Triangulo.B = float(input('Entre com o lado B: '))
+# Triangulo.C = float(input('Entre com o lado C: '))
 
-Area = x.Area(triangulo.A, triangulo.B, triangulo.C)
-print(Area)
+# # x = Triangulo(Triangulo.A, Triangulo.B, Triangulo.C)
+# print(x)
+
+# Area = x.calc_area(Triangulo.A, Triangulo.B, Triangulo.C)
+# print(Area)
