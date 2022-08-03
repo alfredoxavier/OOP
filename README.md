@@ -1,1 +1,2 @@
-# First studies using Object-Oriented Programming
+# First studies using Object-Oriented Programming and GitHub
+
