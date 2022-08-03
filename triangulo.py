@@ -28,7 +28,7 @@ class Triangulo(object):
         elif ans == ('N'):
           print('Cancelado pelo usuário')
         else:
-          print('Resposta incorreta')
+          raise Exception('Resposta incorreta')
 
     def calc_area(self):
         p = (self.A + self.B + self.C) / 2

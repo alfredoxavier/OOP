@@ -6,3 +6,7 @@ print('Agora troque os vértices')
 a.troca_vertices()
 print(f'Agora, o triangulo a possui {a.lados} lados, com os vertices a: {a.A}, b: {a.B} e c: {a.C}, possui nova área de {a.area} e perímetro de {a.perimetro} ')
 a.class_triangulo()
+
+######################
+
+
