@@ -37,3 +37,11 @@ class Triangulo(object):
 
     def calc_perimetro(self):
       self.perimetro = self.A + self.B + self.C
+
+    def class_triangulo(self):
+      if self.A == self.B == self.C:
+        print('O triangulo é equilatero')
+      elif self.A == self.B or self.A == self.C or self.B == self.C:
+        print('O triangulo é isósceles')
+      else: 
+        print('O triangulo é escaleno')
